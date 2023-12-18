@@ -1,0 +1,65 @@
+body {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8c52bfa8-5546-467e-9337-f876cbcf374c/def8e3g-8653aa19-1abe-4bdf-a98e-0169c055d165.jpg/v1/fill/w_1280,h_720,q_75,strp/a_gift___kung_fu_panda_wallpaper_by_maxvlla_def8e3g-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvOGM1MmJmYTgtNTU0Ni00NjdlLTkzMzctZjg3NmNiY2YzNzRjXC9kZWY4ZTNnLTg2NTNhYTE5LTFhYmUtNGJkZi1hOThlLTAxNjljMDU1ZDE2NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.QA1pBKu3-obQZAztO86NkXNSjYOJXy_uAQNY2AFahlw');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.javier {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px; 
+    animation: colorChange 10s infinite alternate; 
+
+}
+
+@keyframes colorChange {
+    0% {
+        color: red;
+    }
+    25% {
+        color: blue;
+    }
+    50% {
+        color: green;
+    }
+    75% {
+        color: orange;
+    }
+    100% {
+        color: purple;
+    }
+}
+
+.lorena {
+    text-align: center;
+    font-size: 120px; 
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+.linkyboi {
+    font-style: italic;
+    font-size: larger;
+    text-align: center;
+    color: white;
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+.linkyboi:hover {
+    color: white;
+    background: repeating-linear-gradient(
+        45deg,
+        yellow,
+        yellow 10px,
+        transparent 10px,
+        transparent 20px
+    );
